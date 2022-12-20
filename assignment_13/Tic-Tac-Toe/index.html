@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta>
+    <title>Tic-Tac-Toe</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <script type="text/javascript" src="index.js">
+
+    </script>
+    <h1>Tic Tac Toe</h1>
+    <h2 id="ins">Game starts by just clicking on a space.<br><br>First Player is <b>Player X!</b><br>And<br>Second Player is <b>Player O!</b></h2>
+    <div class="top">
+      <div class="topleft">
+        <input type="text" id="topleft" onclick=
+            "changeText_3(); ticTacToe();" readonly>
+      </div>
+      <div class="topmiddle">
+        <input type="text" id="topmiddle" onclick=
+            "changeText_4(); ticTacToe();" readonly>
+      </div>
+      <div class="topright">
+        <input type="text" id="topright" onclick=
+            "changeText_5(); ticTacToe();" readonly>
+      </div>
+    </div>
+    <div class="middle">
+      <div class="middleleft">
+        <input type="text" id="middleleft" onclick=
+            "changeText_6(); ticTacToe();" readonly>
+      </div>
+      <div class="middlemiddle">
+        <input type="text" id="middlemiddle" onclick=
+            "changeText_7(); ticTacToe();" readonly>
+      </div>
+      <div class="middleright">
+        <input type="text" id="middleright" onclick=
+            "changeText_8(); ticTacToe();" readonly>
+      </div>
+    </div>
+    <div class="bottom">
+      <div class="bottomleft">
+        <input type="text" id="bottomleft" onclick=
+            "changeText_9(); ticTacToe();" readonly>
+      </div>
+      <div class="bottommiddle">
+        <input type="text" id="bottommiddle" onclick=
+            "changeText_10(); ticTacToe();" readonly>
+      </div>
+      <div class="bottomright">
+        <input type="text" id="bottomright" onclick=
+            "changeText_11(); ticTacToe();" readonly>
+      </div>
+    </div>
+    <br><br><br>
+        <button id="but" onclick="myfunc_2()">
+            RESET
+        </button>
+        <br><br>
+        <p id="print"></p>
+  </body>
+</html>

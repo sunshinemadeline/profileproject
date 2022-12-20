@@ -1,0 +1,121 @@
+body{
+  background-color: hsl(129, 19%, 64%);
+}
+p{
+  color: white;
+}
+h1{
+  margin-top: 5%;
+  font-size: 300%;
+  color: hsla(129, 19%, 13%, 1);
+  text-align: center;
+}
+h2{
+  font-size: 100%;
+  color: hsla(129, 19%, 13%, 1);
+  text-align: center;
+}
+.top {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+}
+.middle{
+  display: flex;
+  justify-content: center;
+}
+.bottom{
+  display: flex;
+  justify-content: center;
+}
+.topright,
+.topmiddle,
+.topleft,
+.middleleft,
+.middlemiddle,
+.middleright,
+.bottomright,
+.bottommiddle,
+.bottomleft {
+    width: 150px;
+    height: 150px;
+    background-color: hsl(129, 19%, 27%);
+}
+.topleft {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-right: solid hsla(129, 19%, 13%, 1);
+        border-bottom: solid hsla(129, 19%, 13%, 1);
+        border-width: thick;
+    }
+.topmiddle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-right: solid hsla(129, 19%, 13%, 1);
+        border-bottom: solid hsla(129, 19%, 13%, 1);
+        border-width: thick;
+    }
+.topright {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: solid hsla(129, 19%, 13%, 1);
+        border-width: thick;
+    }
+.middleleft {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-right: solid hsla(129, 19%, 13%, 1);
+        border-bottom: solid hsla(129, 19%, 13%, 1);
+        border-width: thick;
+    }
+.middlemiddle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-right: solid hsla(129, 19%, 13%, 1);
+        border-bottom: solid hsla(129, 19%, 13%, 1);
+        border-width: thick;
+    }
+.middleright {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: solid hsla(129, 19%, 13%, 1);
+        border-width: thick;
+      }
+.bottomleft{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-right: solid hsla(129, 19%, 13%, 1);
+        border-width: thick;
+      }
+.bottommiddle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-right: solid hsla(129, 19%, 13%, 1);
+        border-width: thick;
+      }
+.bottomright{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+button {
+  margin-left: 48%;
+}
+#print{
+  text-align: center;
+  font-size: 200%;
+  color: hsla(129, 19%, 13%, 1);
+}
+input{
+    background-color: hsl(129, 19%, 64%);
+    text-align: center;
+    color: hsl(129, 19%, 19%);
+}
